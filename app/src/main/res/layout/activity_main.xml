@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="110dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_task4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="Task 4 ga o'ting">
+
+            </Button>
+            <Button
+                android:id="@+id/btn_task5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="Task 5 ga o'ting">
+
+            </Button>
+
+            <EditText
+                android:id="@+id/et_one"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittext_border"
+                android:hint="UZB"
+                android:inputType="number"></EditText>
+
+            <EditText
+                android:id="@+id/et_two"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:hint="USD"
+                android:inputType="number"></EditText>
+
+            <Button
+                android:id="@+id/btn_one"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:enabled="false"
+                android:text="Bosing">
+
+            </Button>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/rounded_corner"
+                app:srcCompat="@drawable/im_mountain">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="30dp"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/cut_corner"
+                app:srcCompat="@drawable/im_unsplash1">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="#B3D8C7"
+                android:hint="TextInputLayout imkoniyatlari"
+                app:boxCornerRadiusBottomEnd="20dp"
+                app:boxCornerRadiusTopEnd="20dp"
+                app:endIconMode="password_toggle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="#B3D8C7"
+                android:hint="TextInputLayout imkoniyatlari"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="#B3D8C7"
+                android:hint="TextInputLayout imkoniyatlari"
+                app:endIconMode="custom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
